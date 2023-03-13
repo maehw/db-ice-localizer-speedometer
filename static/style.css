@@ -1,0 +1,37 @@
+@font-face {
+  font-family: AtkinsonHyperlegible;
+  src: url(Atkinson-Hyperlegible-Regular-102.woff); /* nice font that can be stored in subfolder ./static */
+}
+
+* {
+  font-family: AtkinsonHyperlegible;
+}
+
+#train_velocity {
+  font-size: 10em;
+}
+
+#train_position {
+  font-size: 4em;
+}
+
+#annotations {
+  font-size: 2em;
+}
+
+body {
+  background-color: #2F2F42;
+  color: #FAFAFA;
+}
+
+a {
+  color: #FAFAFA;
+}
+
+#main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+# directories
+.idea/
+venv/
+__pycache__/
+# files
+.DS_Store
+geckodriver.log
+*.csv
+static/*.woff*
