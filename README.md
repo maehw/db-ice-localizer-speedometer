@@ -12,7 +12,19 @@ To improve precision of GPS coordinates, zoom to the maximum zoom level by press
 
 ![Zoom level widget](./doc/zoom-level-gui.png)
 
-You can also run the second Python script `serve.py` using Flask (`flask --app serve run`) in addition. It will serve the extracted data on your own website from the latest logged CSV data:
+You can also run the second Python script `serve.py` using Flask in addition. It will serve the extracted data on your own website from the latest logged CSV data. Please note that it must be started using `flask --app serve run` (`python serve.py` would immediately finish execution and return).
+
+```
+$ flask --app serve run
+ * Serving Flask app 'serve'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+...
+```
+
+Use your favorite web browser and go to the URL listed in the console output: http://127.0.0.1:5000
 
 ![Flask server](./doc/flask-server.png)
 
